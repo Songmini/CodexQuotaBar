@@ -189,20 +189,20 @@ private func drawCodeMark(in rect: NSRect, scale: CGFloat) {
     divider.stroke()
 
     let prompt = NSBezierPath()
-    prompt.move(to: NSPoint(x: rect.minX + 148 * scale, y: rect.minY - 104 * scale))
-    prompt.line(to: NSPoint(x: rect.minX + 208 * scale, y: rect.minY - 154 * scale))
-    prompt.line(to: NSPoint(x: rect.minX + 148 * scale, y: rect.minY - 204 * scale))
-    prompt.lineWidth = 28 * scale
+    prompt.move(to: NSPoint(x: rect.midX - 56 * scale, y: rect.minY - 8 * scale))
+    prompt.line(to: NSPoint(x: rect.midX - 24 * scale, y: rect.minY - 36 * scale))
+    prompt.line(to: NSPoint(x: rect.midX - 56 * scale, y: rect.minY - 64 * scale))
+    prompt.lineWidth = 24 * scale
     prompt.lineCapStyle = .round
     prompt.lineJoinStyle = .round
     accent.setStroke()
     prompt.stroke()
 
     let underscore = NSBezierPath()
-    underscore.move(to: NSPoint(x: rect.midX + 40 * scale, y: rect.minY - 202 * scale))
-    underscore.line(to: NSPoint(x: rect.midX + 128 * scale, y: rect.minY - 202 * scale))
-    underscore.lineWidth = 18 * scale
+    underscore.move(to: NSPoint(x: rect.midX - 12 * scale, y: rect.minY - 64 * scale))
+    underscore.line(to: NSPoint(x: rect.midX + 56 * scale, y: rect.minY - 64 * scale))
+    underscore.lineWidth = 20 * scale
     underscore.lineCapStyle = .round
-    NSColor(calibratedWhite: 0.72, alpha: 1).setStroke()
+    NSColor(calibratedWhite: 0.82, alpha: 1).setStroke()
     underscore.stroke()
 }
