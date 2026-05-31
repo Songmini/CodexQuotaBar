@@ -1,8 +1,12 @@
+<div align="center">
+
+<img src="Resources/AppIcon.iconset/icon_256x256.png" alt="Codex Usage app icon" width="128">
+
 # Codex Usage
 
-<img src="Resources/AppIcon.iconset/icon_256x256.png" alt="Codex Usage app icon" width="128" align="right">
-
 macOS menu bar app that shows the remaining Codex quota from the local Codex app.
+
+</div>
 
 ## Screenshots
 
