@@ -1,6 +1,16 @@
 # Codex Usage
 
+<img src="Resources/AppIcon.iconset/icon_256x256.png" alt="Codex Usage app icon" width="128" align="right">
+
 macOS menu bar app that shows the remaining Codex quota from the local Codex app.
+
+## Screenshots
+
+| Full panel | Compact panel |
+| --- | --- |
+| ![Full quota panel](docs/screenshots/full-panel.png) | ![Compact quota panel](docs/screenshots/compact-panel.png) |
+
+The panels float above normal windows, can be dragged, and show the 1-week quota first with the 5-hour quota as secondary context.
 
 ## Behavior
 
