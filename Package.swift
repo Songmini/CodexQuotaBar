@@ -1,0 +1,29 @@
+// swift-tools-version: 5.9
+
+import PackageDescription
+
+let package = Package(
+    name: "CodexUsage",
+    platforms: [
+        .macOS(.v13)
+    ],
+    products: [
+        .library(name: "CodexUsageCore", targets: ["CodexUsageCore"]),
+        .executable(name: "CodexUsage", targets: ["CodexUsage"])
+    ],
+    targets: [
+        .target(name: "CodexUsageCore"),
+        .executableTarget(
+            name: "CodexUsage",
+            dependencies: ["CodexUsageCore"]
+        ),
+        .testTarget(
+            name: "CodexUsageCoreTests",
+            dependencies: ["CodexUsageCore"]
+        ),
+        .testTarget(
+            name: "CodexUsageTests",
+            dependencies: ["CodexUsage"]
+        )
+    ]
+)
