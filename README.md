@@ -2,11 +2,11 @@
 
 <img src="Resources/AppIcon.iconset/icon_256x256.png" alt="Codex Usage app icon" width="128">
 
+</div>
+
 # Codex Usage
 
 macOS menu bar app that shows the remaining Codex quota from the local Codex app.
-
-</div>
 
 ## Screenshots
 
